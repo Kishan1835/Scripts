@@ -20,3 +20,7 @@ echo "the addition of two variable $sum "
 
 let sub=$y-$x
 echo "the substracttion of two variables $sub "
+
+# another method 
+
+echo "Substraction is  $(($y-$x)) "
