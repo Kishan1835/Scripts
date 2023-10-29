@@ -1,6 +1,6 @@
 #!/bin/bash
-# Revision-001
-# Sat, Oct 28, 2023 8:57:04 AM
+# Revision-002
+# Sat, Oct 29, 2023 8:57:04 AM
 
 # Variables
 BASE=/mnt/g/scripts/projects
@@ -9,6 +9,7 @@ DEPTH=1
 RUN=0
 
 # Check if the directory is present or not
+:x
 if [ ! -d $BASE ]
 then
     echo "directory does not exist: $BASE"
